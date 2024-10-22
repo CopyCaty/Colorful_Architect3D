@@ -48,9 +48,6 @@ class AColorful_Architect3DCharacter : public ACharacter
 	AActor* FireBlock(TSubclassOf<AActor> actorBPToSpawn, FTransform spawnPos, FVector fireForce, FVector blockScale);
 
 
-	/*UPROPERTY(EditAnywhere)
-	FTransform spawnPos;*/
-
 public:
 	AColorful_Architect3DCharacter();
 	
